@@ -15,13 +15,13 @@ Output: "Please enter a valid instrument"
 */
 
 const drumsArr = ["Buddy Rich","Art Blakey","Gene Krupa","Max Roach","Elvin Jones",
-    "Tony Williams","Philly Joe Jones","Roy Hanes","Jack DeJohnette","Brian Blade"];
-const bassArr = ["Charles Mingus","Ray Brown","Paul Chambers","Ron Carter","Jaco Pastorious",
+    "Tony Williams","Philly Joe Jones","Roy Haynes","Jack DeJohnette","Brian Blade"];
+const bassArr = ["Charles Mingus","Ray Brown","Paul Chambers","Ron Carter","Jaco Pastorius",
     "Scott LaFaro","Milt Hinton","Oscar Pettiford","Stanley Clarke","Christian McBride"];
 const guitarArr = ["Wes Montgomery","Django Reinhadt","Joe Pass","Charlie Christian",
     "Pat Metheny","Jim Hall","John Scofield","George Benson","Grant Green","Kenny Burrell"];
 const pianoArr = ["Art Tatum","Duke Ellington","Count Basie","Oscar Peterson","Bud Powell",
-    "Telonious Monk","Bill Evans","Herbie Hancock","Chick Corea","Keith Jarrett"];
+    "Thelonious Monk","Bill Evans","Herbie Hancock","Chick Corea","Keith Jarrett"];
 const singerArr = ["Ella Fitzgerald","Frank Sinatra","Billie Holiday","Louis Armstrong",
     "Sarah Vaughan","Nina Simone","Nat King Cole","Chet Baker","Diana Krall","Carmen McRae"];
 const saxArr = ["Charlie Parker","John Coltrane","Sonny Rollins","Lester Young","Coleman Hawkins",
