@@ -30,3 +30,43 @@ const trumpetArr = ["Louis Armstrong","Miles Davis","Dizzy Gillespie","Clifford 
     "Chet Baker","Freddie Hubbard","Lee Morgan","Wynton Marsalis","Roy Eldridge","Arturo Sandoval"];
 const tromboneArr = ["J.J. Johnson","Tommy Dorsey","Jack Teagarden","Glenn Miller",
     "Kai Winding","Curtis Fuller","Frank Rosolino","Bill Watrous","Delfeayo Marsalis","Kid Ory"];
+
+const randIdx = Math.floor(Math.random() * 10);
+
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question('Please enter your instrument: ', (instrument) => {
+    switch(instrument){
+        case 'Drums': 
+            console.log(`We recommend you listen to ${drumsArr[randIdx]}`);
+            break;
+        case 'Bass': 
+            console.log(`We recommend you listen to ${bassArr[randIdx]}`);
+            break;
+        case 'Guitar': 
+            console.log(`We recommend you listen to ${guitarArr[randIdx]}`);
+            break;
+        case 'Piano':
+            console.log(`We recommend you listen to ${pianoArr[randIdx]}`);
+            break;
+        case 'Singer':
+            console.log(`We recommend you listen to ${singerArr[randIdx]}`);
+            break;
+        case 'Saxophone':
+            console.log(`We recommend you listen to ${saxArr[randIdx]}`);
+            break;
+        case 'Trumpet':
+            console.log(`We recommend you listen to ${trumpetArr[randIdx]}`);
+            break;
+        case 'Trombone':
+            console.log(`We recommend you listen to ${tromboneArr[randIdx]}`);
+            break;
+        default:
+            console.log('Please enter one of these options (case sensitive): Drums, Bass, Guitar, Piano, Singer, Saxophone, Trumpet or Trombone')
+    };
+    rl.close();
+});
